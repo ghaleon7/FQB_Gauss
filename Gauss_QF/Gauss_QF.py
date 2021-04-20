@@ -437,7 +437,7 @@ class Gauss_QF:
         return s1 + s2
         
     def compose(self, other):
-       """
+        """
         Implementa o algoritmo de Shanks para a composição de formas 
         com determinante negativo. A forma resultante pode não ser
         reduzida, pelo que será necessário usar a função reduced
