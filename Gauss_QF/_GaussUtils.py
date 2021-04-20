@@ -6,6 +6,8 @@ def gcdxy(a, b):
     """
     Esta função calcula o máximo divisor comum entre a e b 
     de forma a resolver a equação ax + by = mdc(a,b).
+    Visto em: https://www.geeksforgeeks.org/python-program-
+    for-basic-and-extended-euclidean-algorithms-2/
     Argumentos:
         - a,b - int
     Devolve:
