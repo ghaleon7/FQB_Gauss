@@ -84,18 +84,6 @@ def b_abs_min(b,a):
     else:
         return res_1
 
-def res_min(b,a):
-    """
-    Método auxiliar que calcula o residuo absoluto mínimo módulo a
-    """
-    res = b%a
-    res_1 = res - a
-    x = min(abs(res), abs(res_1))
-    if x == abs(res):
-        return res
-    else:
-        return res_1
-
 def b_sqrt(b, a, lim_inf, lim_sup):
     """
     Método auxiliar que calcula o representante de um número -b módulo a
