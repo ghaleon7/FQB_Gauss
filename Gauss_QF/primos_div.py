@@ -5,7 +5,17 @@ from ._GaussUtils import gcdxy
 def prod(lst):
     """
     Esta função calcula o produto de todos os elementos de uma lista.
+    Argumentos:
+        lst - list
+    Devolve:
+        p - int
+    Exemplo:
+        prod([1,2,3]):
+            >>> 6
     """
+    if not isinstance(lst, list):
+        raise TypeError(f"O utilizador introduziu um argumento {type(lst)}," +\
+                        " precisamos que seja uma lista.")
     p = 1
     for i in lst:
         p *=i
