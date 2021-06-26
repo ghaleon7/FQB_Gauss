@@ -161,7 +161,7 @@ class Gauss_QF:
         """
         if self.determinant < 0:
             cond_a = abs(2*self.b) <= abs(self.a) <= abs(self.c)
-            cond_b = self.a <= sq(4*abs(self.determinant)/3)
+            cond_b = abs(self.a) <= sq(4*abs(self.determinant)/3)
             if cond_a and cond_b:
                 return True
             else:
